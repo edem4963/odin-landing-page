@@ -19,7 +19,7 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 10px 100px;
-    gap: 500px;
+    gap: 400px;
 }
 
 .logo {
@@ -71,7 +71,41 @@ body {
     font-weight: 700;
 }
 
+.right-side {
+    height: 30vh;
+    width: 500px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth {
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.testimony {
+    font-size: 36px;
+    width: 700px;
+    color: #1F2937;
+    font-style: italic;
+    align-self: center;
+}
+
+.author {
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
 .footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
