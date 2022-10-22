@@ -80,6 +80,51 @@ body {
     align-items: center;
 }
 
+.third {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*gap: 20px;*/
+}
+
+.boxsect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boximg {
+    height: 100px;
+    width: 100px;
+    border: 5px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxtext {
+    text-align: center;
+    width: 150px;
+    margin: 20px 40px;
+}
+
+.header2 {
+    font-size: 36px;
+    color: #1F2937;
+
+}
+
 .fourth {
     background-color: #e5e7eb;
     padding: 100px;
