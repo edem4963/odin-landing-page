@@ -102,6 +102,37 @@ body {
     margin-top: 50px;
 }
 
+.fifth {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner {
+    border: #f9Faf8;
+    border-radius: 5px;
+    width: 800px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: #f9Faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.button2 {
+    border-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-weight: 700;
+    background-color: #3882f6;
+    color: #f9Faf8;
+}
+
 .footer {
     background-color: #1F2937;
     color: #e5e7eb;
